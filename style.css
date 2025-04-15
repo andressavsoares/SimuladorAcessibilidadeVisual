@@ -1,0 +1,19 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+#preview {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.quill-editor {
+  height: 100px;
+  background: white;
+  margin-bottom: 10px;
+}
+[contenteditable="true"]:focus {
+  outline: 2px dashed #007bff;
+  background-color: #f8f9fa;
+}
